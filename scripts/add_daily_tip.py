@@ -360,7 +360,7 @@ def main():
     with open(monthly_file, "a") as f:
         f.write("\n" + formatted + "\n")
 
-    print(f"Added tip for {date_str}: [{category}] {tip['title']}")
+    print(f"Added tip for {date_str}: [{tip['category']}] {tip['title']}")
 
     # Update index in README
     update_readme(date_str, tip)
