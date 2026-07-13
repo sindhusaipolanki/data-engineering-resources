@@ -1,0 +1,37 @@
+name: Daily Data Engineering Tip
+
+on:
+  schedule:
+    # 10:00 AM CST = 16:00 UTC (winter) / 10:00 AM CDT = 15:00 UTC (summer)
+    # Using 15:00 UTC to hit 10 AM CDT during daylight saving time
+    - cron: '0 15 * * *'
+  workflow_dispatch:   # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  post-tip:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate today's tip
+        run: python scripts/add_daily_tip.py
+
+      - name: Commit and push
+        run: |
+          git config user.name  "Sindhu Sai Polanki"
+          git config user.email "${{ secrets.COMMIT_EMAIL }}"
+          git add daily-tips/ README.md
+          git diff --cached --quiet || git commit -m "tip: $(date +'%Y-%m-%d') daily data engineering tip"
+          git push

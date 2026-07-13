@@ -122,4 +122,9 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 
 ---
 
+<!-- LAST_TIP -->
+**Latest tip:** Check the [`daily-tips/`](./daily-tips/) folder — a new data engineering tip is posted every day at 10 AM CST.
+
+---
+
 *Sindhu Sai Polanki · Senior Data Engineer · [Portfolio](https://sindhu-sai-polanki.vercel.app)*
