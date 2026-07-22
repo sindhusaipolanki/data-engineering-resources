@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-07-21):** [PySpark] Filter before join, not after
+**Latest tip (2026-07-22):** [SQL] Use window functions instead of self-joins
