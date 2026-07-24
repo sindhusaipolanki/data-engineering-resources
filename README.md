@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-07-23):** [Azure Data Factory] Use watermark tables for incremental loads
+**Latest tip (2026-07-24):** [Delta Lake] Time travel for safe backfills
