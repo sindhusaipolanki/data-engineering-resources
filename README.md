@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-07-25):** [PySpark] Avoid Python UDFs — use native Spark functions
+**Latest tip (2026-07-26):** [SQL] CTEs improve readability and performance
