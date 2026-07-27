@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-07-26):** [SQL] CTEs improve readability and performance
+**Latest tip (2026-07-27):** [Microsoft Fabric] Use Direct Lake mode for Power BI on OneLake
