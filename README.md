@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-07-28):** [PySpark] Cache DataFrames used more than twice
+**Latest tip (2026-07-29):** [Delta Lake] Set retention carefully before VACUUM
