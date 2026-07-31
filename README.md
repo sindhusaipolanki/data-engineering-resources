@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-07-30):** [SQL] Lateral joins replace correlated subqueries
+**Latest tip (2026-07-31):** [Azure Data Factory] Use metadata-driven pipelines to scale
