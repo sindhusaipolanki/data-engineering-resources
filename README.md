@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-08-02):** [Delta Lake] Schema enforcement protects your pipeline
+**Latest tip (2026-08-03):** [SQL] Use EXPLAIN ANALYZE before optimizing
