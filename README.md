@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-08-07):** [SQL] Avoid SELECT * in production queries
+**Latest tip (2026-08-08):** [Azure Data Factory] Use variables for dynamic pipeline dates
