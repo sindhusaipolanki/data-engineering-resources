@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-08-09):** [Delta Lake] Use MERGE for idempotent upserts
+**Latest tip (2026-08-10):** [Data Quality] Track null rates per column at Silver layer
