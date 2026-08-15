@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-08-14):** [Data Quality] Use Great Expectations for automated data contracts
+**Latest tip (2026-08-15):** [PySpark] Use Adaptive Query Execution (AQE)
