@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-08-15):** [PySpark] Use Adaptive Query Execution (AQE)
+**Latest tip (2026-08-16):** [Delta Lake] Enable Change Data Feed for incremental reads
