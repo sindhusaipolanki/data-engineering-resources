@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-08-18):** [Azure Data Factory] Set retry policies on all Copy activities
+**Latest tip (2026-08-19):** [Data Quality] Reconcile row counts between source and target
