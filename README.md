@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-08-21):** [Microsoft Fabric] Use Fabric Pipelines for orchestration over ADF
+**Latest tip (2026-08-22):** [SQL] Use EXCEPT and INTERSECT for data reconciliation
