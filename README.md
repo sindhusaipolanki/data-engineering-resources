@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-08-23):** [Delta Lake] Use liquid clustering instead of partition columns
+**Latest tip (2026-08-24):** [Data Quality] Test for referential integrity at Gold layer
