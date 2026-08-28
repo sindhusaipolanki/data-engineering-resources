@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-08-26):** [Azure Data Factory] Use Mapping Data Flows for complex transforms
+**Latest tip (2026-08-28):** [Delta Lake] Shallow clone for testing without data copy
