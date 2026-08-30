@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-08-29):** [Data Quality] Profile data before building pipelines
+**Latest tip (2026-08-30):** [PySpark] Use foreachBatch for streaming-to-Delta upserts
