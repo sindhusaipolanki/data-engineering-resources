@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-09-02):** [Delta Lake] Set auto-optimize properties on high-write tables
+**Latest tip (2026-09-03):** [Data Quality] Use checksums to validate file transfers
