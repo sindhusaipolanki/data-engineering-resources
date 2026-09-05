@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-09-04):** [PySpark] Use coalesce instead of repartition when reducing
+**Latest tip (2026-09-05):** [Azure Data Factory] Use Dataflow debug sessions to iterate fast
