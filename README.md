@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-09-06):** [SQL] Materialized views for expensive aggregations
+**Latest tip (2026-09-07):** [Delta Lake] Use table properties to document your tables
