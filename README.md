@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-09-08):** [Delta Lake] Use ZORDER BY for frequently filtered columns
+**Latest tip (2026-09-09):** [PySpark] Filter before join, not after
