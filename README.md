@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-09-19):** [Azure Data Factory] Use metadata-driven pipelines to scale
+**Latest tip (2026-09-20):** [PySpark] Broadcast small dimension tables
