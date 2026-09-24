@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-09-23):** [Data Quality] Row count checks catch silent failures
+**Latest tip (2026-09-24):** [Microsoft Fabric] Partition your Lakehouse tables by date
