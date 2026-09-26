@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-09-25):** [PySpark] Use monotonically_increasing_id for surrogate keys
+**Latest tip (2026-09-26):** [SQL] Avoid SELECT * in production queries
