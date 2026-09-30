@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-09-29):** [Data Quality] Track null rates per column at Silver layer
+**Latest tip (2026-09-30):** [PySpark] Repartition before writing to avoid small files
