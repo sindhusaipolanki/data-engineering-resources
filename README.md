@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-10-01):** [SQL] Index foreign key columns in fact tables
+**Latest tip (2026-10-02):** [Microsoft Fabric] Use Shortcuts to avoid data duplication
