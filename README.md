@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-10-02):** [Microsoft Fabric] Use Shortcuts to avoid data duplication
+**Latest tip (2026-10-03):** [Data Quality] Use Great Expectations for automated data contracts
