@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-10-06):** [SQL] Partition elimination is your best optimization
+**Latest tip (2026-10-07):** [Azure Data Factory] Set retry policies on all Copy activities
