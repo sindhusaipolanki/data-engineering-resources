@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-10-13):** [Data Quality] Test for referential integrity at Gold layer
+**Latest tip (2026-10-14):** [PySpark] Use struct columns to group related fields
