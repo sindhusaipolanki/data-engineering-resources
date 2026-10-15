@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-10-14):** [PySpark] Use struct columns to group related fields
+**Latest tip (2026-10-15):** [Azure Data Factory] Use Mapping Data Flows for complex transforms
