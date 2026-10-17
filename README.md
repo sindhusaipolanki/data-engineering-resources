@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-10-16):** [SQL] DATE_TRUNC for consistent time-series grouping
+**Latest tip (2026-10-17):** [Delta Lake] Shallow clone for testing without data copy
