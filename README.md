@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-10-23):** [Data Quality] Use checksums to validate file transfers
+**Latest tip (2026-10-24):** [PySpark] Use coalesce instead of repartition when reducing
