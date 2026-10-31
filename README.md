@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-10-30):** [SQL] Use window functions instead of self-joins
+**Latest tip (2026-10-31):** [Azure Data Factory] Use watermark tables for incremental loads
