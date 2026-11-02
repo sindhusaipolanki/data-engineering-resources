@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-11-01):** [Delta Lake] Time travel for safe backfills
+**Latest tip (2026-11-02):** [PySpark] Avoid Python UDFs — use native Spark functions
