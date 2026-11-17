@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-11-16):** [Azure Data Factory] Use variables for dynamic pipeline dates
+**Latest tip (2026-11-17):** [Delta Lake] Use MERGE for idempotent upserts
