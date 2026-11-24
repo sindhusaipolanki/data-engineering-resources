@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-11-22):** [Data Quality] Use Great Expectations for automated data contracts
+**Latest tip (2026-11-24):** [Delta Lake] Enable Change Data Feed for incremental reads
