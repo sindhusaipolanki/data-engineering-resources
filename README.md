@@ -123,4 +123,4 @@ spark.sql("RESTORE delta.`/mnt/gold/fact_sales` TO VERSION AS OF 42")
 ---
 
 <!-- LAST_TIP -->
-**Latest tip (2026-11-24):** [Delta Lake] Enable Change Data Feed for incremental reads
+**Latest tip (2026-11-25):** [SQL] Partition elimination is your best optimization
